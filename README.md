@@ -34,6 +34,12 @@ WantedBy=default.target
 ```
 3. Some commands:
 ```
+ssh -i ~/.ssh/maket_maker.pem ubuntu@54.237.192.67
+```
+```
+git clone git@github.com:yuanyuan2000/dlob_local_server.git
+```
+```
 sudo systemctl daemon-reload  # 通知systemd有新的服务文件
 ```
 ```
